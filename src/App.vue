@@ -50,11 +50,7 @@ function createFormGroup() {
   });
 
   form = new FormGroup(controls);
-  console.log(controls);
-
   controlsConfig.value = structuredClone(config);
-
-  console.log(form.controls)
 }
 
 onMounted(() => {
